@@ -1,0 +1,104 @@
+:root {
+	--color-primary: #4f4f4f;
+	--color-secondary: #333;
+	--color-invert: #fff;
+
+	--color-text-action: #fefefe;
+	--color-background-action: #66ac66;
+
+	--color-heading-title: #f3b562;
+	--color-heading-subtitle: #647b64;
+
+	--color-footer-background: #F0DCC5;
+	--color-background: #F3F1EE;
+}
+
+body {
+	color: var(--color-primary);
+	font-family: 'Montserrat',sans-serif;
+	font-size: 16px;
+	background: var(--color-background);
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.header-link {
+	text-decoration: none;
+	color: var(--color-secondary);
+	text-underline-offset: 2px;
+}
+
+.header-link:hover {
+	text-decoration: underline;
+}
+
+.button {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	color: var(--color-text-action);
+	background: var(--color-background-action);
+	cursor: pointer;
+}
+
+.hero-title {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 1.333;
+	align-items: center;
+	color: var(--color-secondary);
+}
+
+
+.description {
+	font-size: 14px;
+}
+
+.section-title {
+	font-size: 24px;
+	line-height: 1.333;
+	text-transform: uppercase;
+	color: var(--color-heading-title);
+}
+
+.section-subtitle {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 1.333;
+	text-transform: uppercase;
+	color: var(--color-heading-subtitle);
+}
+
+.title-card {
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--color-secondary);
+}
+
+.header-card-team {
+	font-weight: 500;
+	color: var(--color-secondary);
+}
+
+.subheader-team {
+	font-size: 14px;
+}
+
+.description-team {
+	font-style: italic;
+}
+
+.green-card {
+	background: var(--color-heading-subtitle);
+	color: var(--color-invert);
+}
+
+.footer {
+	background: var(--color-footer-background);
+}
